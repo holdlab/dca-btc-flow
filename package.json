@@ -1,0 +1,25 @@
+{
+  "name": "dca-flow-protocol",
+  "version": "1.0.0",
+  "description": "DCA Protocol on Flow Blockchain with Scheduled Transactions",
+  "main": "index.js",
+  "scripts": {
+    "telegram": "node scripts/telegram-bot.js"
+  },
+  "keywords": [
+    "DCA",
+    "Flow",
+    "Blockchain",
+    "Cadence",
+    "Scheduled Transactions",
+    "Dollar Cost Averaging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@onflow/fcl": "^1.12.2",
+    "@onflow/types": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
